@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0077A29F1C584EF90035C95F /* SingleMalt+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0077A29D1C584EF90035C95F /* SingleMalt+CoreDataProperties.swift */; };
+		0077A2A01C584EF90035C95F /* SingleMalt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0077A29E1C584EF90035C95F /* SingleMalt.swift */; };
+		00CDAC631C50624700F10624 /* AddSingleMaltViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CDAC621C50624700F10624 /* AddSingleMaltViewController.swift */; };
+		00CDAC731C52E57600F10624 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CDAC721C52E57600F10624 /* EditViewController.swift */; };
+		00CDAC751C52ECDD00F10624 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00CDAC741C52ECDD00F10624 /* Main.storyboard */; };
+		00EE7ADD1C50473A00A10912 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EE7ADC1C50473A00A10912 /* AppDelegate.swift */; };
+		00EE7ADF1C50473A00A10912 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EE7ADE1C50473A00A10912 /* ViewController.swift */; };
+		00EE7AE51C50473A00A10912 /* SingleMaltApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00EE7AE31C50473A00A10912 /* SingleMaltApp.xcdatamodeld */; };
+		00EE7AE71C50473A00A10912 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00EE7AE61C50473A00A10912 /* Assets.xcassets */; };
+		00EE7AEA1C50473A00A10912 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00EE7AE81C50473A00A10912 /* LaunchScreen.storyboard */; };
+		00EE7AF21C50477400A10912 /* SingleMaltManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EE7AF11C50477400A10912 /* SingleMaltManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0077A29D1C584EF90035C95F /* SingleMalt+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SingleMalt+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0077A29E1C584EF90035C95F /* SingleMalt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleMalt.swift; sourceTree = "<group>"; };
+		00CDAC621C50624700F10624 /* AddSingleMaltViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSingleMaltViewController.swift; sourceTree = "<group>"; };
+		00CDAC721C52E57600F10624 /* EditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		00CDAC741C52ECDD00F10624 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		00EE7AD91C50473A00A10912 /* SingleMaltApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleMaltApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00EE7ADC1C50473A00A10912 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00EE7ADE1C50473A00A10912 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00EE7AE41C50473A00A10912 /* SingleMaltApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SingleMaltApp.xcdatamodel; sourceTree = "<group>"; };
+		00EE7AE61C50473A00A10912 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00EE7AE91C50473A00A10912 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00EE7AEB1C50473A00A10912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00EE7AF11C50477400A10912 /* SingleMaltManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleMaltManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00EE7AD61C50473A00A10912 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00EE7AD01C50473A00A10912 = {
+			isa = PBXGroup;
+			children = (
+				0077A29D1C584EF90035C95F /* SingleMalt+CoreDataProperties.swift */,
+				0077A29E1C584EF90035C95F /* SingleMalt.swift */,
+				00EE7ADB1C50473A00A10912 /* SingleMaltApp */,
+				00EE7ADA1C50473A00A10912 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00EE7ADA1C50473A00A10912 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00EE7AD91C50473A00A10912 /* SingleMaltApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00EE7ADB1C50473A00A10912 /* SingleMaltApp */ = {
+			isa = PBXGroup;
+			children = (
+				00EE7ADC1C50473A00A10912 /* AppDelegate.swift */,
+				00EE7ADE1C50473A00A10912 /* ViewController.swift */,
+				00EE7AF11C50477400A10912 /* SingleMaltManager.swift */,
+				00CDAC741C52ECDD00F10624 /* Main.storyboard */,
+				00CDAC721C52E57600F10624 /* EditViewController.swift */,
+				00CDAC621C50624700F10624 /* AddSingleMaltViewController.swift */,
+				00EE7AE61C50473A00A10912 /* Assets.xcassets */,
+				00EE7AE81C50473A00A10912 /* LaunchScreen.storyboard */,
+				00EE7AEB1C50473A00A10912 /* Info.plist */,
+				00EE7AE31C50473A00A10912 /* SingleMaltApp.xcdatamodeld */,
+			);
+			path = SingleMaltApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00EE7AD81C50473A00A10912 /* SingleMaltApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00EE7AEE1C50473A00A10912 /* Build configuration list for PBXNativeTarget "SingleMaltApp" */;
+			buildPhases = (
+				00EE7AD51C50473A00A10912 /* Sources */,
+				00EE7AD61C50473A00A10912 /* Frameworks */,
+				00EE7AD71C50473A00A10912 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SingleMaltApp;
+			productName = SingleMaltApp;
+			productReference = 00EE7AD91C50473A00A10912 /* SingleMaltApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00EE7AD11C50473A00A10912 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Brett Nitschke";
+				TargetAttributes = {
+					00EE7AD81C50473A00A10912 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 65FN6AP927;
+					};
+				};
+			};
+			buildConfigurationList = 00EE7AD41C50473A00A10912 /* Build configuration list for PBXProject "SingleMaltApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00EE7AD01C50473A00A10912;
+			productRefGroup = 00EE7ADA1C50473A00A10912 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00EE7AD81C50473A00A10912 /* SingleMaltApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00EE7AD71C50473A00A10912 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00EE7AEA1C50473A00A10912 /* LaunchScreen.storyboard in Resources */,
+				00EE7AE71C50473A00A10912 /* Assets.xcassets in Resources */,
+				00CDAC751C52ECDD00F10624 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00EE7AD51C50473A00A10912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CDAC731C52E57600F10624 /* EditViewController.swift in Sources */,
+				00EE7AE51C50473A00A10912 /* SingleMaltApp.xcdatamodeld in Sources */,
+				00EE7AF21C50477400A10912 /* SingleMaltManager.swift in Sources */,
+				0077A2A01C584EF90035C95F /* SingleMalt.swift in Sources */,
+				00EE7ADF1C50473A00A10912 /* ViewController.swift in Sources */,
+				00EE7ADD1C50473A00A10912 /* AppDelegate.swift in Sources */,
+				00CDAC631C50624700F10624 /* AddSingleMaltViewController.swift in Sources */,
+				0077A29F1C584EF90035C95F /* SingleMalt+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00EE7AE81C50473A00A10912 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00EE7AE91C50473A00A10912 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00EE7AEC1C50473A00A10912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00EE7AED1C50473A00A10912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00EE7AEF1C50473A00A10912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SingleMaltApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brett.SingleMaltApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		00EE7AF01C50473A00A10912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SingleMaltApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brett.SingleMaltApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00EE7AD41C50473A00A10912 /* Build configuration list for PBXProject "SingleMaltApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00EE7AEC1C50473A00A10912 /* Debug */,
+				00EE7AED1C50473A00A10912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00EE7AEE1C50473A00A10912 /* Build configuration list for PBXNativeTarget "SingleMaltApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00EE7AEF1C50473A00A10912 /* Debug */,
+				00EE7AF01C50473A00A10912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		00EE7AE31C50473A00A10912 /* SingleMaltApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				00EE7AE41C50473A00A10912 /* SingleMaltApp.xcdatamodel */,
+			);
+			currentVersion = 00EE7AE41C50473A00A10912 /* SingleMaltApp.xcdatamodel */;
+			path = SingleMaltApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 00EE7AD11C50473A00A10912 /* Project object */;
+}
